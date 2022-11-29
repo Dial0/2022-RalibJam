@@ -76,7 +76,7 @@ int main(void)
     // Initialization
     //--------------------------------------------------------------------------------------
     InitWindow(screenWidth, screenHeight, "raylib 9yr gamejam");
-    
+    SetWindowSize(screenWidth*screenScale, screenHeight*screenScale);
     // TODO: Load resources / Initialize variables at this point
     
     // Render texture to draw full screen, enables screen scaling
